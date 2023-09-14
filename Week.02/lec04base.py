@@ -3,7 +3,9 @@ catB = 0
 catC = 0
 count = 0
 # nextCategory = None
-resp = [ 'A', 'A', 'A', 'B', 'B' ]
+# resp = [ 'A', 'A', 'A', 'B', 'B' ]
+# resp = list("AAABB")
+resp = list("A"*3+"B"*2)
 
 # while nextCategory != "Q":
 for nextCategory in resp:
