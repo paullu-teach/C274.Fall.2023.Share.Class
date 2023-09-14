@@ -1,4 +1,7 @@
 now:
+	python3 lec04base.py
+
+lec03::
 	python3 lec03base.py
 
 l03p02:
