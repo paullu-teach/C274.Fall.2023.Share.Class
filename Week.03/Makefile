@@ -1,4 +1,7 @@
-base:
+lec06base:
+	python3 lec06base.py
+
+lec05base:
 	python3 lec05base.py
 
 slides1:
