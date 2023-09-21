@@ -1,3 +1,6 @@
+lec06p0102:
+	python3 lec06p01p02.py
+
 lec06base:
 	python3 lec06base.py
 
