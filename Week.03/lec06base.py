@@ -1,7 +1,7 @@
 import random
 
 def uniqueRandomInt(l,u,target):
-    assert (u+l-1) >= target, "Not enough range"
+    assert (u-l+1) >= target, "Not enough range"
     count = 0
     theNums = []
     while count < target:
