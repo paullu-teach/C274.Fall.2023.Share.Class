@@ -1,3 +1,6 @@
+lec07p01:
+	python3 lec07p01.py < num.1
+
 lec07base:
 	python3 lec07base.py
 
