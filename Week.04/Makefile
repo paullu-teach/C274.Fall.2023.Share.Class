@@ -1,3 +1,6 @@
+lec08base:
+	python3 lec08base.py
+
 lec07p02:
 	python3 lec07p01.py
 
