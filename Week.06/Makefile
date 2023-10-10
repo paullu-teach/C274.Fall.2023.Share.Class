@@ -6,3 +6,6 @@ q2:
 	python3 q2.py
 	python3 -m pdb q2.py
 
+
+cubic:
+	python3 cubicloop.py
