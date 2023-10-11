@@ -1,3 +1,6 @@
+base:
+	python3 driver.dog.py
+
 q1:
 	python3 q1.py
 	python3 -m pdb q1.py
