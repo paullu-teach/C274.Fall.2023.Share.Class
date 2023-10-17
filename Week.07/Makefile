@@ -13,6 +13,9 @@ v9:
 v12:
 	python3 count.the.v12.py data.v1
 
+p8:
+	python3 count.the.p8.py < data.v1
+
 push:
 	git commit -a
 	git push
