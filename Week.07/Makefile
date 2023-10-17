@@ -1,3 +1,6 @@
+timer:
+	python3 mytimer.py
+
 v11:
 	python3 count.the.v11.py data.v1
 
