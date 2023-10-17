@@ -1,7 +1,8 @@
 import sys
 
 Debug = False   # Sometimes, print for debugging
-InputFilename = "file.input.txt"
+# InputFilename = "file.input.txt"
+InputFilename = "data.v1"
 
 
 def open_file(filename=InputFilename):
