@@ -1,3 +1,6 @@
+base14:
+	python3 lec14base.py
+
 timer:
 	python3 mytimer.py
 
