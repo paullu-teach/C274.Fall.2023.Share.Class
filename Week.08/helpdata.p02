@@ -1,0 +1,80 @@
+% Credit:  Paul Lu, Copyright 2018-2020
+%pos-features help get bad 911 
+%pos-label #help
+%
+#help		i am not feeling well
+#help		call for help
+#help		help me
+#help		get my son
+#help		get my daughter
+#help		get my wife
+#help		get my husband
+#help		i'm feeling really bad
+#help		i'm stuck
+#help		call 911
+#help		i feel dizzy
+#help		i need to lie down
+#help		i do not feel well
+#help		i need help
+#help		i feel a little off
+#help		i have a headache
+#help		NEW ate bad food
+#help		NEW ate bad sushi
+#help		NEW ate bad chicken
+#help		NEW ate bad pork
+#help		NEW ate bad take-out
+#help		NEW ate bad stuff
+#help		NEW bad drink
+#help		NEW had a bad fall
+#help		NEW had a bad bump
+#help		NEW had a bad cut
+#help		NEW had a bad reaction to medicine
+#help		NEW had a bad reaction to bee sting
+#help		NEW had a bad reaction to food
+#help		NEW had a bad reaction to clothes
+#help		NEW had a bad reaction to candy
+#help		NEW had a bad reaction to needle
+#help		NEW get the doctor
+#help		NEW get my pills quickly
+#help		NEW get my medicine
+#help		NEW get my pill dispenser
+%% NOT
+#help		NEW send for the doctor
+#help		NEW send for the ambulance
+#help		NEW send for the nurse
+#help		NEW send for the aid
+#help		NEW send for the family
+#help		NEW send for the paramedic
+#help		NEW send for the pharmacist
+#help		NEW send for the surgeon
+#help		NEW i need the doctor
+#help		NEW i need the ambulance
+#help		NEW i need the nurse
+#help		NEW i need the aid
+#help		NEW i need the family
+#help		NEW i need the paramedic
+#help		NEW i need the pharmacist
+#help		NEW i need the surgeon
+%
+%
+#negative	turn on lights
+#negative	turn on lamp
+#negative	i want to listen to the radio
+#negative	what time is it
+#negative	so so
+#negative	i feel so so
+#negative	just a bit tired
+#negative	my feet hurt
+#negative	leave me alone
+#negative	stop bothering to me
+#negative	my knees hurt
+#negative	my phone is broken
+#negative	i am fine
+#negative	i am ok
+#negative	not so bad
+#negative	all is fine
+#negative	how are you
+#negative	can't get this to work
+#negative	ouch
+#negative	hello
+#negative	i do not need help

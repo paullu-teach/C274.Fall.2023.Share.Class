@@ -1,0 +1,51 @@
+% Credit:  Paul Lu, Copyright 2018-2020
+%pos-features help get bad 911 
+%pos-label #help
+%
+#help		i am not feeling well
+#help		call for help
+#help		help me
+#help		get my son
+#help		get my daughter
+#help		get my wife
+#help		get my husband
+#help		i'm feeling really bad
+#help		i'm stuck
+#help		call 911
+#help		i feel dizzy
+#help		i need to lie down
+#help		i do not feel well
+#help		i need help
+#help		i feel a little off
+#help		i have a headache
+#help		i have a stomach ache
+#help		i have a back ache
+%
+%
+#negative	turn on lights
+#negative	turn on lamp
+#negative	i want to listen to the radio
+#negative	what time is it
+#negative	so so
+#negative	i feel so so
+#negative	just a bit tired
+#negative	my feet hurt
+#negative	leave me alone
+#negative	stop bothering to me
+#negative	my knees hurt
+#negative	my phone is broken
+#negative	i am fine
+#negative	i am ok
+#negative	not so bad
+#negative	all is fine
+#negative	how are you
+#negative	can't get this to work
+#negative	ouch
+#negative	hello
+#negative	i do not need help
+#negative	NEW tv is good tonight
+#negative	NEW food is good tonight
+#negative	NEW blanket is good tonight
+#negative	NEW company is good tonight
+#negative	NEW light is good tonight
+#negative	NEW cake is good tonight
