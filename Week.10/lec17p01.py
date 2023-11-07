@@ -58,7 +58,7 @@ class XYData:
         return
 
     def dump(self):
-        print(self.__array)
+        # print(self.__array)
         for i in self.__array:
             print(i.x(), i.y())
         return
@@ -69,7 +69,7 @@ class XYData:
             l = []
             for i in self.__array:
                 l.append(i.x())
-                print(i.x())
+                # print(i.x())
             return(l)
         elif type(data) is list:
             y = self.y()
@@ -80,11 +80,10 @@ class XYData:
                 else:
                     newY = y[i]
                 xy = XYSingle(data[i],newY)
-                print(data[i],newY)
+                # print(data[i],newY)
                 l.append(xy)
-                print(xy)
+                # print(xy)
             self.__array = l.copy()
-            self.dump()
             return(len(data))
 
         assert False, "Should not be here: x"

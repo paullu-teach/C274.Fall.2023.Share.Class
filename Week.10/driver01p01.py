@@ -6,10 +6,6 @@ def main():
     s = XYData("driver01")
     print(s)
     s.x([1,2,3,4])
-    s.dump()
-    print(s.x())
-
-def stuff():
     s.y([2,4,6,8])
     print(s.x())
     print(s.y())
