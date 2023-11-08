@@ -12,6 +12,9 @@ def main():
     s.swapxy()
     print(s.x())
     print(s.y())
+    print(s)
+    print([s])
+    s.dump()
 
 if __name__ == "__main__":
     main()

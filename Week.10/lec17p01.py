@@ -23,11 +23,11 @@ class XYSingle:
         return
 
     def __str__(self):
-        s = "XYSingle" + str(self.__x) + " " + str(self.__y)
+        s = "XYSingle" + str(self.x()) + " " + str(self.y())
         return s
 
     def __repr__(self):
-        s = "Id<"+ str(id(self)) + ">" + str(self.__x) + " " + str(self.__y)
+        s = "Id<"+ str(id(self)) + ">" + str(self.x()) + " " + str(self.y())
         return s
 
 
@@ -59,30 +59,28 @@ class XYData:
 
     def dump(self):
         # print(self.__array)
+        print("x","y",self.name())
         for i in self.__array:
             print(i.x(), i.y())
         return
 
     def x(self,data=[]):
         # HINT: Borrow idea from Lecture 14 worksheet, polymorphism
-        if len(data) == 0:
+        if len(data) == 0:              # Getter
             l = []
             for i in self.__array:
                 l.append(i.x())
-                # print(i.x())
             return(l)
-        elif type(data) is list:
+        elif type(data) is list:        # Setter
             y = self.y()
             l = []
             for i in range(len(data)):
                 if len(y) <= i:
-                    newY = 0
+                    oldY = 0
                 else:
-                    newY = y[i]
-                xy = XYSingle(data[i],newY)
-                # print(data[i],newY)
+                    oldY = y[i]
+                xy = XYSingle(data[i],oldY)
                 l.append(xy)
-                # print(xy)
             self.__array = l.copy()
             return(len(data))
 
@@ -101,10 +99,10 @@ class XYData:
             l = []
             for i in range(len(data)):
                 if len(x) <= i:
-                    newX = 0
+                    oldX = 0
                 else:
-                    newX = x[i]
-                xy = XYSingle(newX,data[i])
+                    oldX = x[i]
+                xy = XYSingle(oldX,data[i])
                 l.append(xy)
             self.__array = l.copy()
             return(len(data))
